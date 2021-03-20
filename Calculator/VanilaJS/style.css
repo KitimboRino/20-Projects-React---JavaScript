@@ -1,0 +1,30 @@
+/* Body Style */
+body {
+  background-color: #80bef5;
+}
+
+/* Column Style */
+.col-md-6 {
+  margin-top: 150px !important;
+  background-color: #80bef5 !important;
+}
+
+/* Button Input Styles */
+input[type='button'] {
+  width: 100%;
+  background-color: #f6d58a;
+  color: black;
+  font-weight: bolder;
+  border: 3px solid black;
+}
+
+/* Text Input Styles */
+input[type='text'] {
+  width: 100%;
+}
+
+/* Header */
+h1 {
+  font-weight: bolder !important;
+  margin-top: 15px;
+}
