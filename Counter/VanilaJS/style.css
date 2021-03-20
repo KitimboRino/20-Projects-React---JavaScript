@@ -1,0 +1,22 @@
+body {
+  background-color: #e7eefb;
+}
+
+/* Columns */
+.col-md-6 {
+  border: 7px solid black;
+  margin-top: 150px !important;
+  padding: 20px;
+}
+
+/* Buttons */
+button {
+  margin: 20px !important;
+  border-color: 2px solid black !important;
+}
+
+/* Heading */
+h1 {
+  font-weight: bolder i !important;
+  margin: 20px !important;
+}
