@@ -1,0 +1,30 @@
+body {
+  background-color: #80bef5 !important;
+  height: 100vh !important;
+}
+
+/* Header */
+h1 {
+  font-weight: bold !important;
+  margin-top: 15px;
+}
+
+/* Column style */
+.col-md-6 {
+  margin-top: 150px !important;
+  background-color: #80bef5 !important;
+}
+
+/* Text Input Styles */
+input[type='text'] {
+  width: 100% !important;
+}
+
+/* Button Input Styles */
+button {
+  width: 100% !important;
+  background-color: #f6d58a !important;
+  border: 3px solid black;
+  color: black !important;
+  font-weight: bold;
+}

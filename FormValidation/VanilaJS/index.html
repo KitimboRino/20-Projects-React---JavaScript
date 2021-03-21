@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+
+    <title>Form Validation</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-5 text-center shadow-lg p-3 mb-5 bg-white rounded">
+                <h1>Form Validation</h1>
+                <!-- Username -->
+                <input type="text" id="username" class="form-control" placeholder="Username" />
+                <small id="username_error"></small>
+
+                <!-- Email -->
+                <input type="text" id="email" class="form-control" placeholder="e-mail" />
+                <small id="email_error"></small>
+
+                <!-- Password -->
+                <input type="text" id="password" class="form-control" placeholder="Password" />
+                <small id="password_error"></small>
+
+                <!-- Confirm Password -->
+                <input type="text" id="cpassword" class="form-control" placeholder="Confirm Password" />
+                <small id="cpassword_error"></small>
+
+                <!-- Submit Button -->
+                <button class="btn btn-primary" onclick="validate()">SUBMIT</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
