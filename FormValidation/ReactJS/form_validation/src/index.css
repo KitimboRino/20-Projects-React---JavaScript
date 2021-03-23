@@ -1,0 +1,34 @@
+/* Body Styling */
+body {
+  background-color: aliceblue !important;
+  height: 100vh;
+}
+
+/* Column Styling */
+.col-md-5 {
+  margin-top: 200px !important;
+  background-color: white;
+  padding: 10px;
+}
+
+/* Input Styling */
+input {
+  margin-top: 10px !important;
+}
+
+/* Button Styling */
+button {
+  margin-top: 20px !important;
+}
+
+/* Error Styling */
+p {
+  color: red !important;
+  font-weight: bold;
+  float: left;
+}
+
+/* Input Styling */
+input {
+  border-width: 3px !important;
+}
