@@ -1,0 +1,46 @@
+/* Body Styling */
+body {
+  background-color: #bad9d7;
+}
+
+/* Column Styling */
+.col-md-5 {
+  margin-top: 150px !important;
+  background-color: white;
+}
+
+/* Header Styling */
+h1 {
+  text-align: center;
+  font-weight: bolder !important;
+  margin: 20px !important;
+}
+
+/* Input Styling */
+input {
+  display: inline !important;
+  border: 2px solid black !important;
+  width: 85% !important;
+}
+
+/* Button Styling */
+button {
+  margin-left: 10px !important;
+  /* margin-top: -5px; */
+}
+
+/* List Styling */
+li {
+  list-style-type: none;
+  font-size: 20px;
+  text-align: center;
+  display: inline;
+  width: 70% !important;
+  margin: 10px;
+}
+
+/* Delete button Styling*/
+i {
+  color: red;
+  margin: 10px;
+}
