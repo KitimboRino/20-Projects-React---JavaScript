@@ -1,0 +1,13 @@
+/* Body Styling */
+body {
+  background-color: #9087e5;
+}
+
+/* Header Styling */
+h1 {
+  margin-top: 50px !important;
+  margin-bottom: 25px !important;
+  background-color: rgb(51, 51, 104);
+  border-radius: 5px;
+  color: white;
+}
